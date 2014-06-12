@@ -1,5 +1,8 @@
-// this is a comment
-body {
-  color: red; // as is this
-  /* block comments still work also */
+@nice-blue: #5B83AD;
+@light-blue: @nice-blue + #111;
+
+#header {
+  color: @light-blue;
 }
+
+
