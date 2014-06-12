@@ -35,10 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="g1.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="g1.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/g1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="2" selection-start="28" selection-end="28" vertical-scroll-proportion="0.032786883" vertical-offset="0" max-vertical-offset="915">
+            <state line="2" column="2" selection-start="28" selection-end="28" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="g2.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/g2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="6" selection-start="22" selection-end="22" vertical-scroll-proportion="0.032786883" vertical-offset="0" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
@@ -77,18 +86,6 @@
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testing.install" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profiles/testing/testing.install">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
           </provider>
         </entry>
       </file>
@@ -132,6 +129,7 @@
         <option value="$PROJECT_DIR$/sites/all/themes/Libra/js/libra.js" />
         <option value="$PROJECT_DIR$/php/g1.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/php/g2.php" />
       </list>
     </option>
   </component>
@@ -292,13 +290,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/profiles/testing/modules/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profiles/testing/testing.info">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
@@ -614,7 +605,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/g1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="28" selection-end="28" vertical-scroll-proportion="0.032786883" vertical-offset="0" max-vertical-offset="915">
+        <state line="2" column="2" selection-start="28" selection-end="28" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/g2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="22" selection-end="22" vertical-scroll-proportion="0.032786883" vertical-offset="0" max-vertical-offset="915">
           <folding />
         </state>
       </provider>
