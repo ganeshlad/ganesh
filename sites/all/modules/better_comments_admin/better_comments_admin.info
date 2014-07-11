@@ -1,0 +1,17 @@
+name = Better comments administration
+description = Improved comments adminstration page with comment previews.
+dependencies[] = comment
+dependencies[] = views
+package = Comments
+configure = admin/config/administration/better_comments_admin
+core = 7.x
+
+files[] = includes/views/views_handler_field_comment_link_preview.inc
+files[] = includes/views/views_handler_field_comment_link_status_toggle.inc
+
+; Information added by drupal.org packaging script on 2013-09-30
+version = "7.x-1.0+3-dev"
+core = "7.x"
+project = "better_comments_admin"
+datestamp = "1380555917"
+

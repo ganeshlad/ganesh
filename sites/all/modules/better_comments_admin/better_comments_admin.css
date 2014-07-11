@@ -1,0 +1,27 @@
+.better_comments_admin-page {
+/*  overflow: hidden;  */
+}
+
+.better_comments_admin-page .left {
+  float: left;
+  width: 50%;
+}
+* html .better_comments_admin-page .left {
+  width: 49.9%;
+}
+
+.better_comments_admin-page .left .inside {
+  margin: 0 .5em 1em 0;
+}
+
+.better_comments_admin-page .right {
+  float: left;
+  width: 50%;
+}
+* html .better_comments_admin-page .right {
+  width: 49.9%;
+}
+
+.better_comments_admin-page .right .inside {
+  margin: 0 0 1em .5em;
+}

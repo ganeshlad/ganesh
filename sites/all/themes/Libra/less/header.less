@@ -1,8 +1,191 @@
-@nice-blue: #5B83AD;
-@light-blue: @nice-blue + #111;
+@fontSize: 16px;
+@baseColor: #3586d8;
+@lighterColor: #409fff;
+@darkerColor: #163859;
+@borderRadius: 10px;
 
-#header {
-  color: @light-blue;
+body {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: @fontSize;
+     overflow: visible;
+}
+.transcript-slider {
+  border: 2px solid #E0E0E0;
+  height: 530px;
+  overflow: scroll;
+  padding: 10px;
+}
+#views-formats {
+  border: 2px solid #E0E0E0;
+  height: 550px;
+  overflow: scroll;
+  padding: 10px;
+  width: 450px;
+}
+#row-style {
+  border: 2px solid #E0E0E0;
+  height: 550px;
+  overflow: scroll;
+  padding: 10px;
+
+}
+#pager {
+  border: 2px solid #E0E0E0;
+  height: 350px;
+  overflow: scroll;
+  padding: 10px;
+}
+#displays {
+  border: 2px solid #E0E0E0;
+  height: 350px;
+  overflow: scroll;
+  padding: 10px;
+}
+#pre {
+  border: 2px solid #E0E0E0;
+  height: 550px;
+  overflow: scroll;
+  padding: 10px;
+}
+#social-tab-content {
+  background-color: #FAFAFA;
+  border-bottom: 1px solid #D3D3D3;
+  border-left: 1px solid #D3D3D3;
+  border-right: 1px solid #D3D3D3;
+  height: 400px;
+  overflow-y: scroll;
+  padding: 20px 15px;
+  border-top: 1px solid #D3D3D3;
+}
+#social-tab-content li{
+  list-style-type: none;
+}
+#facebook {
+  margin-left: -32px;
+}
+#twitter {
+  margin-left: -30px;
+}
+.navbar-toggle{
+  float: left;
+}
+ .site-logo {
+  display: table-cell;
+  vertical-align: middle;
+}
+ .site-logo img {
+  max-height: 100px;
+  max-width: none;
+}
+.site-name, #site-slogan {
+  color: inherit;
+  font-family: inherit;
+  line-height: 1;
+  text-rendering: optimizelegibility;
+}
+.site-name {
+  font-size: 35px;
+  font-weight: 700;
+}
+#site-slogan {
+  font-size: 24px;
+  line-height: 1.1em;
+  margin-top: 0.3em;
+}
+.site-name a, .site-name a:hover {
+  color: #333333;
+  text-decoration: none;
+}
+.site-name a:hover {
+  color: #000000;
+}
+#name-and-slogan {
+  display: table-cell;
+  padding: 20px 0 20px 10px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#block-menu-menu-facebook .first{
+  font-size: 0px;
+  background: url('/sites/default/files/fb-white.png') no-repeat scroll 0 0 rgba(0,0,0,0);
+  margin-left: 3px;
+  float: left;
+  height: 20px;
+
+}
+#block-menu-menu-facebook {
+  background-color: #000000;
+  height: 20px;
+
+}
+
+#block-menu-menu-facebook .last{
+  font-size: 0px;
+  float: left;
+  background: url('/sites/default/files/tw-white.png') no-repeat scroll 0 0 rgba(0,0,0,0);
+  margin-left: 4px;
+}
+#block-menu-menu-userheads .nav .last a {
+ background-color: red;
+  color: #000000;
+  font-size: 12px;
+  height: 20px;
+}
+#block-menu-menu-userheads .nav .leaf a {
+  font-size: 12px;
+  color: #ffffff;
+
+}
+#block-menu-menu-userheads .nav .first a {
+   font-size: 12px;
+  background-color: #000000;
+  color: #ffffff;
+}
+#block-menu-menu-userheads .nav li a {
+  float: right;
+margin-top: -17px;
+  padding: 0px 0px;
+  color: #ffffff;
+  padding: 0px 1px 1px 2px;
+}
+
+#container {
+	margin: auto;
+	width: 100%;		// define our width to not take up the whole area
+	max-width: 1250px;	// width must be no greater than this value
+	min-width: 450px;	// minimum width for our container
+}
+#mymenu {
+  background:none;
+  height: auto;
+  padding: 0px 0px;
+  margin-top: 0px;
+ color: #000000;
+}
+
+#mymenu li {
+  margin-right: 3px;
+  float: left;
+  margin-top: 5px;
+  list-style: url(none) none outside;
+  font-size: @font-size;
+  padding: 12px 28px 17px;
+}
+#mymenu li a, #mymenu li a:visited {
+  border: medium none;
+  border-radius: 10px;
+  color: #000000;
+  font-weight: bold;
+  padding: 5px 20px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#mymenu li a:hover {
+  color: #111;
+  background-color: #CCC;
 }
 
 

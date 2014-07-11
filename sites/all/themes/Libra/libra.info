@@ -1,5 +1,5 @@
-name = Libra
-description = Theme Develope by Libra.
+name = Libra Theme
+description = Libra Theme is a responsive Drupal 7 theme.
 core = 7.x
 base theme = bootstrap
 
@@ -8,7 +8,11 @@ base theme = bootstrap
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
 
+regions[featured]       = 'Featured'
+regions[main_top]       = 'Main Top'
+regions[main_bottom]    = 'Main Bottom'
 regions[navigation]     = 'Navigation'
+regions[header_top]     = 'Top Black Bar'
 regions[header]         = 'Top Bar'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
@@ -16,8 +20,10 @@ regions[content]        = 'Content'
 regions[sidebar_first]  = 'Primary'
 regions[sidebar_second] = 'Secondary'
 regions[footer]         = 'Footer'
-regions[page_top]       = 'Page top'
-regions[page_bottom]    = 'Page bottom'
+regions[footer_first]   = 'First Bottom'
+regions[footer_second]  = 'Second Bottom'
+regions[footer_third]   = 'Third Bottom'
+regions[footer_four]    = 'Four Bottom'
 
 
 ;;;;;;;;;;;;;;;;;;;;;
@@ -26,6 +32,7 @@ regions[page_bottom]    = 'Page bottom'
 
 stylesheets[all][] =  less/style.less
 stylesheets[all][] =  css/style.css
+stylesheets[all][] =  css/social-buttons.css  
 
 
 ; For information on choosing the desired method, please read the Drupal

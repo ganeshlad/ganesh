@@ -1,42 +1,64 @@
-// Insert your styling here.
+@font-size: 14px;
+@basecolor: #3586d8;
+@lighterColor: #409fff;
+@darkerColor: #163859;
 
 
- 
-.ui-tabs .ui-tabs-nav li a {
-   padding: 9px 36px 11px;
-   font-size: 10px;
-    font-weight: bold;
-    display:block;
-    background-color: #282827;
-    border-left: 1px solid #444444;
-    border-right: 1px solid #020202;
-    color: #B5B5B5;
-    text-transform: uppercase;
-    position:relative;
-      margin:0px;
-    margin-right: -10px;
-    
-    position:relative;
+.footer-bottom {
+  margin: auto;
+  width: 100%;		// define our width to not take up the whole area
+  max-width: 1150px;	// width must be no greater than this value
+  min-width: 350px;// minimum width for our container
+  max-height: 1090px;
 }
 
-.ui-tabs .ui-tabs-nav {
-    margin:0px;
-    padding: 0px 0px;
-}
-.ui-widget-header {
-    
-    border: 0px 
-    
-}
-.ui-widget {
-    font-family: Verdana,Arial,sans-serif;
-    font-size: 14px;
+
+#mytab  {
+  background: #000000;
+  height: auto;
+  padding: 0px;
+  margin-top: 0px 10px;
+  color: #B5B5B5;
 }
 
-a:hover, a:focus {
-    color: #2A6496;
-    text-decoration: none;
+#mytab li {
+ margin-left: 0px;
+ margin-right: 0px;
+  float: left;
+  margin-top: 5px;
+  list-style: url(none) none outside;
+  font-size: @font-size;
+  padding: 10px 28px 10px;
+
 }
-.ui-widget-content a {
-    color: #428BCA;
+#mytab li a, #mytab li a:visited  {
+  padding: 2px;
+  decoration: none;
+  text-decoration: none;
+  color: #B5B5B5;
+  font-weight: bold;
+
+  position: relative;
+  text-transform: uppercase;
+  border-left: 2px solid #444444;
+  border-right: 2px solid #020202;
+  border: none;
+}
+
+#mytab li a:hover {
+  color: #000000;
+  background-color: #CCC;
+}
+#footer-one, #footer-two, #footer-four {
+  float: left;
+  margin-right: 51px;
+  width: 329px;
+}
+.follow-us li {
+  list-style-type: none;
+}
+.follow-us {
+  display: table-row-group;
+
+  margin-left: 0px;
 }
