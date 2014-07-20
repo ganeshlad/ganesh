@@ -90,7 +90,7 @@
                 <div class="header-logo">
                     <?php if ($logo): ?>
                         <div id="logo" class="site-logo"> <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
-                                <img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" role="presentation" /> </a></div>
+                                <img class="img-thumbnail"  src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" role="presentation" /> </a></div>
                     <?php endif; ?>
                     <!-- /#logo -->
                     <?php if ($site_name || $site_slogan): ?>

@@ -1,15 +1,11 @@
 
 (function ($) {
-  Drupal.behaviors.libra = {
-    attach: function (context, settings) {
-$(document).ready(function() {
-$('#f1', context).load('http://planetghost.com/drupal/install-views-module #div.content');
-});
-    } // end of attach function
-  }; // end of Drupal behaviour
+    Drupal.behaviors.Libra = {
+        attach: function(context, settings) {
+            $(window).ready(function() {
+            $('#c', context).load('http://www.bryanbraun.com/2013/08/06/drupal-tutorials-exposed-filters-with-views #node-307');
+        });
+        }
 
-}) // end of function $
-
-(jQuery);
-
-
+    };
+})(jQuery);

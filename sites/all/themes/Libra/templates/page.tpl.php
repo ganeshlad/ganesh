@@ -75,7 +75,7 @@
 ?>
 <div id="wrapper">
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
-  <div class="container">
+  <div class="container clearfix">
     <div class="row">
         <div class="toggle-container">
             <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
@@ -90,7 +90,7 @@
             <div class="header-logo">
                 <?php if ($logo): ?>
                     <div id="logo" class="site-logo"> <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
-                            <img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" role="presentation" /> </a></div>
+                            <img class="img-thumbnail" src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" role="presentation" /> </a></div>
                 <?php endif; ?>
                 <!-- /#logo -->
                 <?php if ($site_name || $site_slogan): ?>
@@ -113,7 +113,7 @@
         <?php endif; ?>
     </div>
 
-    <div class="container">
+    <div class="container clearfix">
         <div class="navbar-collapse collapse">
             <nav role="navigation">
                 <?php if (!empty($primary_nav)): ?>
@@ -156,9 +156,7 @@
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
       <?php endif; ?>
-      <?php if (!($is_front) &&  ($breadcrumb)): ?>
-        <div id="breadcrumb"><?php print $breadcrumb; ?></div>
-        <?php endif; ?>
+        <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php if (!empty($title)): ?>

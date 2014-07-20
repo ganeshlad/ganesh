@@ -65,4 +65,3 @@ $variables['my_site_title'] = variable_get('site_name');
 }
 
 
-

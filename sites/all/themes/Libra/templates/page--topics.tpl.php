@@ -73,6 +73,8 @@
  * @ingroup themeable
  */
 ?>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="/js/jquery.tipsy.js"></script>
 <div id="wrapper">
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
     <div class="container">
@@ -90,7 +92,7 @@
                 <div class="header-logo">
                     <?php if ($logo): ?>
                         <div id="logo" class="site-logo"> <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
-                                <img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" role="presentation" /> </a></div>
+                                <img class="img-thumbnail" src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" role="presentation" /> </a></div>
                     <?php endif; ?>
                     <!-- /#logo -->
                     <?php if ($site_name || $site_slogan): ?>
@@ -158,16 +160,7 @@
 
 
 
-        <?php if ($breadcrumb): ?>
-        <div id="breadcrumb">
-           <ul class="breadcrumb">
-               <li><a href="/Section/drupal-7-view-module"><h4><span><?php print $section ; ?></span></h4></a> </li>
-               <span class="divider">/</span>
-               <li><a href="/Chapters/advanced-view-modules"><h4><?php print $chapters ; ?></h4></a> </li>
-
-           </ul>
-
-        </div> <?php endif;?>
+        <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
 
 
       <a id="main-content"></a>
