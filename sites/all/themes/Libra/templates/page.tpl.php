@@ -194,16 +194,16 @@
         <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third']): ?>
             <div id="footer-area" class="clearfix">
                 <?php if ($page['footer_first']): ?>
-                    <div class="column" id="footer-one"><?php print render($page['footer_first']); ?></div>
+                    <div class="col-md-2 col-sm-6 col-xs-6" id="footer-one"><?php print render($page['footer_first']); ?></div>
                 <?php endif; ?>
                 <?php if ($page['footer_second']): ?>
-                    <div class="column" id="footer-two"><?php print render($page['footer_second']); ?></div>
+                    <div class="col-md-2 col-sm-6 col-xs-6" id="footer-two"><?php print render($page['footer_second']); ?></div>
                 <?php endif; ?>
                 <?php if ($page['footer_third']): ?>
-                    <div class="column" id="footer-three"><?php print render($page['footer_third']); ?></div>
+                    <div class="col-md-2 col-sm-6 col-xs-6" id="footer-three"><?php print render($page['footer_third']); ?></div>
                 <?php endif; ?>
                 <?php if ($page['footer_four']): ?>
-                <div class="column" id="footer-four"><?php print render($page['footer_four']); ?></div>
+                <div class="col-md-2 col-sm-6 col-xs-6" id="footer-four"><?php print render($page['footer_four']); ?></div>
                 <?php endif; ?>
             </div>
         <?php endif; ?>

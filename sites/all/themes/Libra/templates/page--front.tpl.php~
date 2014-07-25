@@ -73,52 +73,73 @@
  * @ingroup themeable
  */
 ?>
+<div id="wrapper">
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
-  <div class="container">
-    <div class="navbar-header">
-      <?php if ($logo): ?>
-      <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-      </a>
-      <?php endif; ?>
-
-      <?php if (!empty($site_name)): ?>
-      <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
-      <?php endif; ?>
-
-      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+  <div class="container clearfix">
+    <div class="row">
+        <div class="toggle-container">
+            <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <?php if ($logo || $site_name || $site_slogan): ?>
+            <div class="header-logo">
+                <?php if ($logo): ?>
+                    <div id="logo" class="site-logo"> <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
+                            <img class="img-thumbnail" src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" role="presentation" /> </a></div>
+                <?php endif; ?>
+                <!-- /#logo -->
+                <?php if ($site_name || $site_slogan): ?>
+                    <div id="name-and-slogan">
+                        <?php if ($site_name): ?>
+                            <div id="site-name" class="site-name"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name; ?></a></div>
+                        <?php endif; ?>
+                        <?php if ($site_slogan): ?>
+                            <div id="site-slogan" class="site-slogan"><?php print $site_slogan; ?></div>
+                        <?php endif; ?>
+                    </div>
+                <?php endif; ?>
+                <?php if (!($site_name || $site_slogan)): ?>
+                    <div id="site" class="hide">
+                        <div id="name"><a href="<?php print $front_page; ?>"><?php print $my_site_title; ?></a></div>
+                    </div>
+                <?php endif; ?>
+                <!-- /#name-and-slogan -->
+            </div>
+        <?php endif; ?>
     </div>
 
-    <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-      <div class="navbar-collapse collapse">
-        <nav role="navigation">
-          <?php if (!empty($primary_nav)): ?>
-            <?php print render($primary_nav); ?>
-          <?php endif; ?>
-          <?php if (!empty($secondary_nav)): ?>
-            <?php print render($secondary_nav); ?>
-          <?php endif; ?>
-          <?php if (!empty($page['navigation'])): ?>
-            <?php print render($page['navigation']); ?>
-          <?php endif; ?>
-        </nav>
-      </div>
-    <?php endif; ?>
+    <div class="container clearfix">
+        <div class="navbar-collapse collapse">
+            <nav role="navigation">
+                <?php if (!empty($primary_nav)): ?>
+                    <?php print render($primary_nav); ?>
+                <?php endif; ?>
+                <?php if (!empty($secondary_nav)): ?>
+                    <?php print render($secondary_nav); ?>
+                <?php endif; ?>
+                <?php if (!empty($page['navigation'])): ?>
+                    <?php print render($page['navigation']); ?>
+                <?php endif; ?>
+            </nav>
+        </div>
+    </div>
+
   </div>
 </header>
 
+<?php if ($page['featured']): ?>
+    <div class="featured">
+        <?php print render($page['featured']); ?>
+    </div><!--featured-->
+<?php endif; ?>
 <div class="main-container container">
 
-  <header role="banner" id="page-header">
-    <?php if (!empty($site_slogan)): ?>
-      <p class="lead"><?php print $site_slogan; ?></p>
-    <?php endif; ?>
+  <header role="banner" id="page-header" class="center-block">
 
     <?php print render($page['header']); ?>
   </header> <!-- /#page-header -->
@@ -135,7 +156,7 @@
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
       <?php endif; ?>
-      <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
+        <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php if (!empty($title)): ?>
@@ -164,5 +185,33 @@
   </div>
 </div>
 <footer class="footer container">
-  <?php print render($page['footer']); ?>
+    <div id="footer">
+        <?php if ($page['footer']): ?>
+            <div id="foot">
+                <?php print render($page['footer']) ?>
+            </div>
+        <?php endif; ?>
+        <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third']): ?>
+            <div id="footer-area" class="clearfix">
+                <?php if ($page['footer_first']): ?>
+                    <div class="col-md-2 col-sm-6 col-xs-6" id="footer-one"><?php print render($page['footer_first']); ?></div>
+                <?php endif; ?>
+                <?php if ($page['footer_second']): ?>
+                    <div class="col-md-2 col-sm-6 col-xs-6" id="footer-two"><?php print render($page['footer_second']); ?></div>
+                <?php endif; ?>
+                <?php if ($page['footer_third']): ?>
+                    <div class="col-md-2 col-sm-6 col-xs-6" id="footer-three"><?php print render($page['footer_third']); ?></div>
+                <?php endif; ?>
+                <?php if ($page['footer_four']): ?>
+                <div class="col-md-2 col-sm-6 col-xs-6" id="footer-four"><?php print render($page['footer_four']); ?></div>
+                <?php endif; ?>
+            </div>
+        <?php endif; ?>
+        <hr>
+        <div id="copyright">
+            <p class="copyright"><?php print t('copyright'); ?> &copy; <?php echo date("Y"); ?>,<?php print $site_name; ?></p><p class="credits"><?php print t('Theme by'); ?><a href="http://www.adobe.com">Drupal-math.com</a>.All rights reserved. | <a href="/toolbar/terms-of-use.html">Terms of Use</a> </p>
+        </div>
+
+    </div>
 </footer>
+</div>

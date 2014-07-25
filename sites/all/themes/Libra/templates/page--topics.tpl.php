@@ -140,9 +140,9 @@
 <?php endif; ?>
 <div class="main-container container">
 
-  <header role="banner" id="page-header">
+  <div role="banner" id="page-header">
     <?php print render($page['header']); ?>
-  </header> <!-- /#page-header -->
+  </div> <!-- /#page-header -->
 
   <div class="row">
 

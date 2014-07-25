@@ -1,42 +1,143 @@
-// Insert your styling here.
 
+@fontSize: 12px;
+@fontSizeHeader:18px;
+@bigfont:28px;
+@fontweight :400;
+@fontcolor: #1F86C4;
+@basecolor: #b5b5b5;
+@BGcolor:#000000;
+@menuBGcolor: #64B8ED;
+@mediaBGcolor: #022439;
+@lighterColor: #828F92;
+@darkerColor: #163859;
+@bordercolor: #53B0EB;
+@sidebarBGcolor: #B4D6EC;
 
- 
-.ui-tabs .ui-tabs-nav li a {
-   padding: 9px 36px 11px;
-   font-size: 10px;
-    font-weight: bold;
-    display:block;
-    background-color: #282827;
-    border-left: 1px solid #444444;
-    border-right: 1px solid #020202;
-    color: #B5B5B5;
-    text-transform: uppercase;
-    position:relative;
-      margin:0px;
-    margin-right: -10px;
-    
-    position:relative;
+.footer-bottom {
+  margin: auto;
+  width: 100%;		// define our width to not take up the whole area
+  max-width: 1150px;	// width must be no greater than this value
+  min-width: 350px;// minimum width for our container
+  max-height: 1090px;
 }
 
-.ui-tabs .ui-tabs-nav {
-    margin:0px;
-    padding: 0px 0px;
-}
-.ui-widget-header {
-    
-    border: 0px 
-    
-}
-.ui-widget {
-    font-family: Verdana,Arial,sans-serif;
-    font-size: 14px;
+
+
+#footer-one, #footer-two, #footer-three {
+  float: left;
+  margin-top: -10px;
+  margin-right: 0px;
+  width: 309px;
+
 }
 
-a:hover, a:focus {
-    color: #2A6496;
+
+#block-block-19 {
+  margin-right: -10px;
+  h4 {
+    font-size: @font-size-medium;
+    font-weight: @fontweight;
+    background-color: @BGcolor;
+    color: @text-color;
+    margin-left: 9px;
+  }
+  p {
+    font-weight: @font-weight-regular;
+    font-size: @font-size-base;
+  }
+
+}
+
+#block-block-20 {
+  margin-right: 10px;
+  margin-left: 50px;
+  h4 {
+    font-size: @font-size-medium;
+    font-weight: @font-weight-regular;
+    background-color: @BGcolor;
+    color: @text-color;
+
+  }
+  ol {
+
+    li a {
+      text-decoration: none;
+      color: @fontcolor;
+      font-weight: 400;
+      font-size: 12px;
+    }
+    a:hover {
+      color: @link-hover-color;
+    }
+  }
+
+}
+
+
+#block-block-22 {
+  margin-left: 50px;
+
+  h4 {
+    background-color: @color;
+    font-size: @font-size-medium;
+    font-weight: @font-weight-regular;
+    color: @text-color;
+  }
+  .social-media {
+    list-style-type: none;
+    margin-top: 10px;
+    height: auto;
+    a {
+      color: @fontcolor;
+      font-size: @font-size-base;
+      font-weight: bold;
+      text-transform: uppercase;
+      list-style-type: none;
+      text-decoration: none;
+      display: inline-block;
+
+    }
+    a:focus {
+      outline: none;
+    }
+    span {
+      background: url("/sites/default/files/csg-53ca37e114c57.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+      display: inline-block;
+      height: 32px;
+      margin-right: 11px;
+      width: 32px;
+
+    }
+    .twitter {
+      background-position: -246px 0;
+    }
+    .linkedin {
+      background-position: -165px 0;
+    }
+    .facebook {
+      background-position: -277px 0;
+    }
+    .mail {
+      background-position: -82px 0;
+    }
+  }
+
+
+
+}
+
+#copyright {
+
+  p {
+    font-weight: @font-weight-regular;
+    font-size: @font-size-base;
+    margin-bottom: 5px;
+
+  }
+
+  a {
     text-decoration: none;
-}
-.ui-widget-content a {
-    color: #428BCA;
+    color: @fontcolor;
+  }
+
 }

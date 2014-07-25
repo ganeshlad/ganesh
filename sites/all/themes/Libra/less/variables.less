@@ -13,6 +13,28 @@
 @gray-light:             #7A8288;   // #999
 @gray-lighter:           #999; // #eee
 
+//Font colors
+//----------------------------------------------------------
+@fontcolor: #1F86C4;
+@color: #000000;
+
+//Back Ground colors
+//----------------------------------------------------------
+@menuBGcolor: #00bbff;
+@sidebarcolor: #B4D6EC;
+@BGColor: linear-gradient(to right, rgba(228,245,252,1) 0%, rgb(238, 247, 253) 100%);
+@HeaderBGcolor: linear-gradient(to bottom, #0678BE, white);
+@mediaBGcolor: #022439;
+
+// Border color
+//----------------------------------------------------------
+@bordercolor: #53B0EB;
+
+
+
+
+
+
 @brand-primary:         @gray-light;
 @brand-success:         #62c462;
 @brand-info:            #5bc0de;
@@ -25,27 +47,30 @@
 // ## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-@body-bg:               @gray-darker;
+@body-bg:               @gray;
 //** Global text color on `<body>`.
 @text-color:            #C8C8C8;
 
 //** Global textual link color.
 @link-color:            #fff;
 //** Link hover color set via `darken()` function.
-@link-hover-color:      #fff;
+@link-hover-color:      #2f2cf5;
 
 
 //== Typography
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-sans-serif:  'PT Sans',sans-serif;
 @font-family-serif:       Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
 
-@font-size-base:          14px;
+@font-sm-base:            9px;
+@font-size-base:          12px;
+@font-size-medium:        15px;
+@font-size-big:           28px;
 @font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
 @font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
 
@@ -55,6 +80,12 @@
 @font-size-h4:            ceil((@font-size-base * 1.25)); // ~18px
 @font-size-h5:            @font-size-base;
 @font-size-h6:            ceil((@font-size-base * 0.85)); // ~12px
+
+@font-weight-light:            300;
+@font-weight-regular:          400;
+@font-weight-semibold:         600;
+@font-weight-bold:             700;
+@font-weight-extrabold:        800;
 
 //** Unit-less `line-height` for use in components like buttons.
 @line-height-base:        1.428571429; // 20/14
@@ -66,6 +97,7 @@
 @headings-font-weight:    500;
 @headings-line-height:    1.1;
 @headings-color:          inherit;
+
 
 
 //-- Iconography
@@ -98,6 +130,12 @@
 @border-radius-base:        4px;
 @border-radius-large:       6px;
 @border-radius-small:       3px;
+
+.border-radius(@radius: 0px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
 
 //** Global color for active items (e.g., navs or dropdowns).
 @component-active-color:    #fff;
@@ -827,3 +865,4 @@
 
 //** Horizontal offset for forms and lists.
 @component-offset-horizontal: 180px;
+

@@ -1,8 +1,17 @@
-@font-size: 14px;
-@basecolor: #3586d8;
-@lighterColor: #409fff;
-@darkerColor: #163859;
 
+@fontSize: 12px;
+@fontSizeHeader:18px;
+@bigfont:28px;
+@fontweight :400;
+@fontcolor: #1F86C4;
+@basecolor: #b5b5b5;
+@BGcolor:#000000;
+@menuBGcolor: #64B8ED;
+@mediaBGcolor: #022439;
+@lighterColor: #828F92;
+@darkerColor: #163859;
+@bordercolor: #53B0EB;
+@sidebarBGcolor: #B4D6EC;
 
 .footer-bottom {
   margin: auto;
@@ -26,15 +35,15 @@
 #block-block-19 {
   margin-right: -10px;
   h4 {
-    font-size: 18px;
-    font-weight: 400;
-    background-color: #000000;
-    color: #b5b5b5;
+    font-size: @font-size-medium;
+    font-weight: @fontweight;
+    background-color: @BGcolor;
+    color: @text-color;
     margin-left: 9px;
   }
   p {
-    font-weight: 400;
-    font-size: 12px;
+    font-weight: @font-weight-regular;
+    font-size: @font-size-base;
   }
 
 }
@@ -43,24 +52,23 @@
   margin-right: 10px;
   margin-left: 50px;
   h4 {
-    font-size: 18px;
-    font-weight: 400;
-
-    background-color: #000000;
-    color: #b5b5b5;
+    font-size: @font-size-medium;
+    font-weight: @font-weight-regular;
+    background-color: @BGcolor;
+    color: @text-color;
 
   }
-ol {
+  ol {
 
-  li a {
-    text-decoration: none;
-    color: #227d9a;
-    font-weight: 400;
-    font-size: 12px;
-  }
-  a:hover {
-    color: #00008b;
-  }
+    li a {
+      text-decoration: none;
+      color: @fontcolor;
+      font-weight: 400;
+      font-size: 12px;
+    }
+    a:hover {
+      color: @link-hover-color;
+    }
   }
 
 }
@@ -70,25 +78,25 @@ ol {
   margin-left: 50px;
 
   h4 {
-    background-color: #000000;
-    font-size: 18px;
-    font-weight: 400;
-    color: #b5b5b5;
+    background-color: @color;
+    font-size: @font-size-medium;
+    font-weight: @font-weight-regular;
+    color: @text-color;
   }
   .social-media {
-      list-style-type: none;
+    list-style-type: none;
     margin-top: 10px;
     height: auto;
-   a {
-     color: #227d9a;
-     font-size: 12px;
-     font-weight: bold;
-     text-transform: uppercase;
-     list-style-type: none;
-     text-decoration: none;
-     display: inline-block;
+    a {
+      color: @fontcolor;
+      font-size: @font-size-base;
+      font-weight: bold;
+      text-transform: uppercase;
+      list-style-type: none;
+      text-decoration: none;
+      display: inline-block;
 
-   }
+    }
     a:focus {
       outline: none;
     }
@@ -120,15 +128,16 @@ ol {
 
 #copyright {
 
-p {
-  font-weight: 400;
-  margin-bottom: 5px;
+  p {
+    font-weight: @font-weight-regular;
+    font-size: @font-size-base;
+    margin-bottom: 5px;
 
-}
+  }
 
-a {
-  text-decoration: none;
-  color: #227d9a;
-}
+  a {
+    text-decoration: none;
+    color: @fontcolor;
+  }
 
 }
