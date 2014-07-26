@@ -152,9 +152,14 @@
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>
 
-    <section<?php print $content_column_class; ?>>
+
+
+    <section class="col-6 col-sm-6 col-lg-6 offset-0 no-gutter" id="main-content">
+
       <?php if (!empty($page['highlighted'])): ?>
+
         <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
+
       <?php endif; ?>
         <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
       <a id="main-content"></a>
@@ -174,7 +179,10 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <?php print render($page['content']); ?>
+
     </section>
+
+
 
     <?php if (!empty($page['sidebar_second'])): ?>
       <aside class="col-sm-3" role="complementary">

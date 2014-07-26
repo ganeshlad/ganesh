@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="variables.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/less/variables.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1297" selection-end="1308" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="13110">
+            <state line="133" column="0" selection-start="4009" selection-end="4132" vertical-scroll-proportion="0.28537455" vertical-offset="1755" max-vertical-offset="13110">
               <folding />
             </state>
           </provider>
@@ -44,25 +44,16 @@
       <file leaf-file-name="sidebar.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/less/sidebar.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="44" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="4860">
+            <state line="249" column="40" selection-start="5353" selection-end="5353" vertical-scroll-proportion="-13.163265" vertical-offset="3090" max-vertical-offset="5190">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="content.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/less/content.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="38" selection-start="2733" selection-end="2733" vertical-scroll-proportion="0.89298457" vertical-offset="1364" max-vertical-offset="2220">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/less/header.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="14" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.0" vertical-offset="3810" max-vertical-offset="7410">
+            <state line="20" column="20" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="3525">
               <folding />
             </state>
           </provider>
@@ -71,7 +62,7 @@
       <file leaf-file-name="page--section.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/templates/page--section.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="7" selection-start="6373" selection-end="6373" vertical-scroll-proportion="0.0" vertical-offset="2070" max-vertical-offset="3270">
+            <state line="148" column="81" selection-start="6720" selection-end="6720" vertical-scroll-proportion="0.0" vertical-offset="2220" max-vertical-offset="3270">
               <folding />
             </state>
           </provider>
@@ -80,16 +71,7 @@
       <file leaf-file-name="page--chapters.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/templates/page--chapters.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="146" column="19" selection-start="6575" selection-end="6575" vertical-scroll-proportion="0.0" vertical-offset="2190" max-vertical-offset="3495">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="field.tpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/field/theme/field.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+            <state line="175" column="31" selection-start="7767" selection-end="7767" vertical-scroll-proportion="0.0" vertical-offset="2625" max-vertical-offset="3495">
               <folding />
             </state>
           </provider>
@@ -98,9 +80,25 @@
       <file leaf-file-name="page.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/templates/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="34" selection-start="5459" selection-end="5459" vertical-scroll-proportion="0.0" vertical-offset="1725" max-vertical-offset="3330">
+            <state line="150" column="54" selection-start="6565" selection-end="6565" vertical-scroll-proportion="0.0" vertical-offset="2250" max-vertical-offset="3450">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/less/header.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="394" column="16" selection-start="6053" selection-end="6053" vertical-scroll-proportion="0.0" vertical-offset="5910" max-vertical-offset="7500">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="libra.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/libra.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -137,15 +135,15 @@
         <option value="$PROJECT_DIR$/sites/all/themes/Libra/less/style.less" />
         <option value="$PROJECT_DIR$/sites/all/themes/Libra/less/variables.less" />
         <option value="$PROJECT_DIR$/sites/all/themes/Libra/templates/field--section.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/Libra/less/sidebar.less" />
         <option value="$PROJECT_DIR$/sites/all/themes/Libra/less/footer.less" />
-        <option value="$PROJECT_DIR$/sites/all/themes/Libra/templates/page--topics.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/Libra/less/header (copy).less" />
+        <option value="$PROJECT_DIR$/sites/all/themes/Libra/less/header.less" />
         <option value="$PROJECT_DIR$/sites/all/themes/Libra/templates/page--section.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/Libra/templates/page--chapters.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/Libra/less/header.less" />
+        <option value="$PROJECT_DIR$/sites/all/themes/Libra/templates/page--topics.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/Libra/templates/page.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/Libra/less/header (copy).less" />
         <option value="$PROJECT_DIR$/sites/all/themes/Libra/less/content.less" />
+        <option value="$PROJECT_DIR$/sites/all/themes/Libra/less/sidebar.less" />
       </list>
     </option>
   </component>
@@ -193,7 +191,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -422,6 +419,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -486,14 +484,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.4997242" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27468285" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32211804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5002758" order="7" side_tool="true" content_ui="tabs" />
@@ -501,12 +499,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -525,9 +523,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4037507" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -549,13 +547,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/libra.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="23" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1245">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/templates/footer.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="0" selection-start="3406" selection-end="3406" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="210" />
@@ -706,11 +697,6 @@
         <state line="2" column="2" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="15" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1095" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/js/libra.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="11" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
@@ -750,28 +736,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/field/theme/field.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="877">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/templates/page--topics.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="7" selection-start="6655" selection-end="6655" vertical-scroll-proportion="0.0" vertical-offset="2160" max-vertical-offset="3450" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/templates/page--section.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="7" selection-start="6373" selection-end="6373" vertical-scroll-proportion="0.0" vertical-offset="2070" max-vertical-offset="3270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/libra.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="23" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="1245">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="877" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/templates/footer.tpl.php">
@@ -779,16 +744,19 @@
         <state line="80" column="0" selection-start="3406" selection-end="3406" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="1290" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/less/variables.less">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1297" selection-end="1308" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="13110">
-          <folding />
-        </state>
+        <state line="24" column="27" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1095" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/templates/page--chapters.tpl.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/libra.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/libra.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="19" selection-start="6575" selection-end="6575" vertical-scroll-proportion="0.0" vertical-offset="2190" max-vertical-offset="3495">
+        <state line="45" column="23" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1245">
           <folding />
         </state>
       </provider>
@@ -800,30 +768,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/templates/page--chapters.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="31" selection-start="7767" selection-end="7767" vertical-scroll-proportion="0.0" vertical-offset="2625" max-vertical-offset="3495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/templates/page--section.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="81" selection-start="6720" selection-end="6720" vertical-scroll-proportion="0.0" vertical-offset="2220" max-vertical-offset="3270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/templates/page--topics.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="31" selection-start="7514" selection-end="7514" vertical-scroll-proportion="0.0" vertical-offset="2580" max-vertical-offset="3465" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="34" selection-start="5459" selection-end="5459" vertical-scroll-proportion="0.0" vertical-offset="1725" max-vertical-offset="3330">
+        <state line="150" column="54" selection-start="6565" selection-end="6565" vertical-scroll-proportion="0.0" vertical-offset="2250" max-vertical-offset="3450">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/less/header.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="14" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.0" vertical-offset="3810" max-vertical-offset="7410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/less/sidebar.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="44" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="4860">
+        <state line="394" column="16" selection-start="6053" selection-end="6053" vertical-scroll-proportion="0.0" vertical-offset="5910" max-vertical-offset="7500">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/less/content.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="38" selection-start="2733" selection-end="2733" vertical-scroll-proportion="0.89298457" vertical-offset="1364" max-vertical-offset="2220">
+        <state line="20" column="20" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="3525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/less/sidebar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="249" column="40" selection-start="5353" selection-end="5353" vertical-scroll-proportion="-13.163265" vertical-offset="3090" max-vertical-offset="5190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/Libra/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="0" selection-start="4009" selection-end="4132" vertical-scroll-proportion="0.28537455" vertical-offset="1755" max-vertical-offset="13110">
           <folding />
         </state>
       </provider>
